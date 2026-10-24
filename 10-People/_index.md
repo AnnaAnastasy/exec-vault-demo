@@ -7,3 +7,4 @@
 | [[tom-becker]] | COO | [[calder-manufacturing]] | client |
 | [[dana-reyes]] | VP Operations | [[harbor-logistics]] | client |
 | [[luis-mendez]] | Dir. Clinical Ops | [[pinecrest-health]] | client |
+| [[sam-ortiz]] | IT Lead | [[calder-manufacturing]] | client |

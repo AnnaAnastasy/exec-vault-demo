@@ -1,7 +1,7 @@
 ---
 type: person
 created: 2026-09-01
-updated: 2026-10-22
+updated: 2026-10-24
 tags: []
 role: CEO
 company: Ridgeline

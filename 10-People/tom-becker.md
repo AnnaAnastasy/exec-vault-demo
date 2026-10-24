@@ -19,8 +19,8 @@ COO at [[calder-manufacturing]] and our sponsor on [[calder-erp-rollout]]. Signs
 Likes phone calls over email. Expects a written recap within 24 hours of any call.
 
 ## History
-### 2026-10-23
-Call with [[maria-okafor]] — see inbox item [[2026-10-23-call-notes-tom-becker]] (not yet processed).
+### 2026-10-23 (from inbox)
+Call with [[maria-okafor]]. Warehouse system vendor says the inventory export may not be ready till early Jan — Jan 15 go-live could slip 2-3 weeks. Tom wants options by next Friday (2026-10-31). Named [[sam-ortiz]] as Calder's IT lead; wants Sam on the weekly call starting Tuesday 2026-10-28. See [[2026-10-23-call-notes-tom-becker]].
 
 ## Meetings
 - [[2026-10-21-calder-kickoff]]
