@@ -1,0 +1,17 @@
+# secrets
+.env
+*.key
+
+# Obsidian per-device state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# integration scripts
+__pycache__/
+node_modules/
