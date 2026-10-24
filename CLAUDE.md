@@ -86,6 +86,7 @@ Setup, field mapping, and limits: `docs/integrations.md`. Data from a tool is a 
 4. **Never send anything outside the vault** (messages, task updates, emails) without the user saying yes in this session.
 5. **Never store secrets** — passwords, API keys, bank details — in any note. Keys live in `.env`, which is git-ignored.
 6. Keep the user's own words in meeting and inbox notes. Summarize above them; don't rewrite them.
+7. **Relative dates** ("tomorrow", "next Fri", "starting tues"): work them out from the item's `received` date and keep the original words next to the result, e.g. `2026-10-27 (Tue; "starting tues" in inbox 2026-10-23)`. If you're not sure, write an open question instead of a date.
 
 ## 9. Git
 
