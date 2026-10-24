@@ -47,13 +47,41 @@ CLAUDE.md        rules Claude Code follows
 2. Open the folder in a terminal and run `claude`.
 3. Try: `process inbox`, then `daily brief`, then ask "what's open with Calder?"
 
+## Demo
+
+**Linked vault** — people, clients, projects, meetings and decisions (templates and docs hidden):
+
+![Graph view](screenshots/graph.png)
+
+
+**Folder structure** — numbered folders, one note per entity:
+
+![File tree](screenshots/file-tree.png)
+
+**A project note before processing** — frontmatter Claude can search on, and an open question instead of a guessed fact:
+
+![Project note](screenshots/project-note.png)
+
+**`process inbox` run in Claude Code** — 2 raw notes sorted into the right files, a new contact created, a decision logged as *proposed*, open questions raised:
+
+![Process inbox](screenshots/process-inbox.png)
+
+**The same project note after processing** — the go-live date is unchanged, the delay is recorded as a risk, and the phased go-live is only *proposed*:
+
+![After processing](screenshots/after-inbox.png)
+
+## What the first test run caught
+
+I checked every change from the first `process inbox` run. Two problems came up, and I added a rule to CLAUDE.md for each:
+
+- **Wrong dates.** Claude guessed weekdays and got two dates wrong: "starting tues" became a Wednesday, and "by next fri" became a Saturday. Rule 7: check with `cal` before resolving a relative date, and keep the original words next to it.
+- **Too much certainty.** Claude wrote "might not be ready" as "confirmed." Rule 8: keep the source's level of certainty.
+
 ## Status
 
 | Part | Status |
 |---|---|
 | Folder structure, templates, sample notes | Done |
-| CLAUDE.md and workflow docs | Done |
-| Google Calendar connection | _to build_ |
-| ClickUp connection | _to build_ |
-| Telegram inbox bot | _to build_ |
-| Go High Level | Designed, not built (needs account) |
+| CLAUDE.md and workflow docs | Done, tested with `process inbox` |
+| Telegram inbox bot | Script written, not tested with a live bot |
+| Google Calendar, ClickUp, Go High Level | Designed (see `docs/integrations.md`), not built |
