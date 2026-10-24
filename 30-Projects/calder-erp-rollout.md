@@ -20,9 +20,9 @@ Move Calder from its legacy ERP to the new system with no lost orders during cut
 Kickoff done 2026-10-21. Go-live set for 2027-01-15 at kickoff.
 
 ### 2026-10-23 (from inbox)
-[[tom-becker]] confirmed the warehouse system vendor says inventory export may not be ready until early January. Full Jan 15 go-live could slip 2-3 weeks. Tom wants options by 2026-10-31. [[sam-ortiz]] (IT lead) joining the weekly call from 2026-10-28. [[maria-okafor]] proposes a phased go-live — see [[2026-10-23-calder-phased-go-live]]. See [[2026-10-23-call-notes-tom-becker]].
+[[tom-becker]] says the warehouse system vendor might not have the inventory export ready until early January. Full Jan 15 go-live could slip 2-3 weeks. Tom wants options by Fri 2026-10-30 ("by next fri" in inbox 2026-10-23). [[maria-okafor]] proposes a phased go-live — see [[2026-10-23-calder-phased-go-live]]. See [[2026-10-23-call-notes-tom-becker]].
 
-> [!question] Is the Calder go-live still Jan 15? Vendor delay on inventory export confirmed — slip of 2-3 weeks possible. Phased go-live proposed. (from inbox 2026-10-23)
+> [!question] Is the Calder go-live still Jan 15? Vendor says inventory export might not be ready until early Jan; go-live could slip 2–3 weeks. Not confirmed. Phased go-live proposed. (from inbox 2026-10-23)
 
 ## Tasks
 > [!sync] ClickUp — not yet connected
